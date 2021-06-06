@@ -39,7 +39,7 @@ let $section = '#home';
 $T.translateSection($section); #This will translate just the tKey inside element with id="home"
 
 <div id='home'>
-  <label tkey='[['html','welcome']]'>
+  <label tkey='[['html','welcome']]'></label>
 </div>
 ```
 

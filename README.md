@@ -21,7 +21,8 @@ On page load:
 ```
 let $T = new Translator({ resources: "./assets/js/resources/" , languaje: "ENG" });
 
-#resouces is the path to your languajes json file. #languaje is language file name
+#resouces is the path to your languajes json file. 
+#languaje is language file name
 ```
 
 When yo want to change your page languaje on the fly just call:

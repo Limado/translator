@@ -19,10 +19,12 @@ We are working on ES6 Module version.
 On page load:
 
 ```
-let $T = new Translator({ resources: "./assets/js/resources/" , languaje: "ENG" }); #resouces is the path to your languajes json file. #languaje is language file name
+let $T = new Translator({ resources: "./assets/js/resources/" , languaje: "ENG" });
+
+#resouces is the path to your languajes json file. #languaje is language file name
 ```
 
-When yo want to change yor page languaje on the fly just call:
+When yo want to change your page languaje on the fly just call:
 
 ```
 $T.setLanguaje("SPA"); # SPA is the name of the resource json file.

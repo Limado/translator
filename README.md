@@ -87,13 +87,13 @@ speed in seconds: defines how many seconds translator will take to write transla
     <h4> Example 4 </h4>
     &lt;label tkey='[["placeholder", "input_placeholder", 2]'&gt;&lt;/label&gt;
     <h4> Results in: </h4>
-    &lt;input type="text" tkey='[["placeholder", "input_placeholder"]]' placeholder="Write something"&lt;/&gt;
+    &lt;input type="text" tkey='[["placeholder", "input_placeholder"]]' placeholder="Write something" /&gt;
     <hr/>
     <h2> Translate element value </h2>
     <h4> Example 5 </h4>
     &lt;label tkey='[["value", "input_value", 2]'&gt;&lt;/label&gt;
     <h4> Results in: </h4>
-    &lt;input id="description" type="text" tkey='[["value", "input_value"]]' value="Fill with value"&lt;/&gt;
+    &lt;input id="description" type="text" tkey='[["value", "input_value"]]' value="Fill with value" /&gt;
     <br/>
 </div>
 

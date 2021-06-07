@@ -2,7 +2,7 @@
 A tiny class to make your own personalized client side translations.
 # Translator
 
-Translator is tiny library to make your own personalized client side translations.
+Translator is tiny class to make your own personalized client side translations.
 
 It depends on JQuery library.
 

@@ -63,7 +63,8 @@ tkey='[["where to translate", "key in json file", speed in seconds]]'
 
 tkey='[["where to translate", ["key in json file", param1, param2, paramN], speed in seconds]]'
 
-speed in seconds: defines how many seconds translator will take to write translations word by word. If you don't like that effect just don't send speed paramter or send 0, this way, translations will appear right away.
+speed in seconds: defines how many seconds translator will take to write translations word by word. 
+If you don't like that effect just don't send speed paramter or send 0, this way, translations will appear right away.
 
 ```
 #Examples

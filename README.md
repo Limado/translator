@@ -86,13 +86,13 @@ If you don't like that effect just don't send speed paramter or send 0, this way
     
     Translate element attribute:
     Example 4
-    <label tkey='[["placeholder", "input_placeholder", 2]'></label>
+    <input tkey='[["placeholder", "input_placeholder", 2]' />
     Results in:
     <input type="text" tkey='[["placeholder", "input_placeholder"]]' placeholder="Write something" />
     
     Translate element value: 
     Example 5
-    <label tkey='[["value", "input_value", 2]'></label>
+    <input tkey='[["value", "input_value", 2]' />
     Results in:
     <input id="description" type="text" tkey='[["value", "input_value"]]' value="Fill with value" />
 ```

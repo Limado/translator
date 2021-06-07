@@ -85,11 +85,9 @@ speed in seconds: defines how many seconds translator will take to write transla
     <hr/>
     <h2> Translate element attribute: </h2>
     <h4> Example 4 </h4>
-  ```
     &lt;label tkey='[["placeholder", "input_placeholder", 2]'&gt;&lt;/label&gt;
     <h4> Results in: </h4>
     <input type="text" tkey='[["placeholder", "input_placeholder"]]' placeholder="Write something">
-  ```
     <hr/>
     <h2> Translate element value </h2>
     <h4> Example 5 </h4>

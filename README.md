@@ -68,32 +68,31 @@ speed in seconds: defines how many seconds translator will take to write transla
 ```
 #Examples
 ```
-    <h2> Translate element innerHtml: </h2>
-    <h4> Example 1 </h4>
-    &lt;label tkey='[["html", "welcome",1]]'&gt;&lt;/label&gt;
-    <h4> Results in: </h4>
-    &lt;label tkey='[["html", "welcome",1]]'&gt;Welcome to my portfolio.&lt;/label&gt;
-    <h4> Example 2 </h4>
-    &lt;label tkey='[["html", ["prize", 19,99], 2]'&gt;&lt;/label&gt;
-    <h4> Results in: </h4>
-    &lt;label tkey='[["html", ["prize", 19,99], 2]'&gt;Get my services for only $19,99 per hour.&lt;/label&gt;
-    <h4> Example 3 </h4>
-    &lt;label tkey='[["html", ["product_prize", 4.99]'&gt;&lt;/label&gt;
-    <h4> Results in: </h4>
-    &lt;label tkey='[["html", ["product_prize", 4.99], 3]]'&gt; Get Translator for only $4.99 just for this month.&lt;/label&gt;
+    Translate element innerHtml:
+    Example 1
+    <label tkey='[["html", "welcome",1]]'></label>
+    Results in:
+    <label tkey='[["html", "welcome",1]]'>Welcome to my portfolio.</label>
+    Example 2
+    <label tkey='[["html", ["prize", 19,99], 2]'></label>
+    Results in:
+    <label tkey='[["html", ["prize", 19,99], 2]'>Get my services for only $19,99 per hour.</label>
+    Example 3
+    <label tkey='[["html", ["product_prize", 4.99]'></label>
+    Results in:
+    <label tkey='[["html", ["product_prize", 4.99], 3]]'> Get Translator for only $4.99 just for this month.</label>
+    
+    Translate element attribute:
+    Example 4
+    <label tkey='[["placeholder", "input_placeholder", 2]'></label>
+    Results in:
+    <input type="text" tkey='[["placeholder", "input_placeholder"]]' placeholder="Write something" />
     <hr/>
-    <h2> Translate element attribute: </h2>
-    <h4> Example 4 </h4>
-    &lt;label tkey='[["placeholder", "input_placeholder", 2]'&gt;&lt;/label&gt;
-    <h4> Results in: </h4>
-    &lt;input type="text" tkey='[["placeholder", "input_placeholder"]]' placeholder="Write something" /&gt;
-    <hr/>
-    <h2> Translate element value </h2>
-    <h4> Example 5 </h4>
-    &lt;label tkey='[["value", "input_value", 2]'&gt;&lt;/label&gt;
-    <h4> Results in: </h4>
-    &lt;input id="description" type="text" tkey='[["value", "input_value"]]' value="Fill with value" /&gt;
-
+    Translate element value </h2>
+    Example 5
+    <label tkey='[["value", "input_value", 2]'></label>
+    Results in:
+    <input id="description" type="text" tkey='[["value", "input_value"]]' value="Fill with value" />
 ```
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

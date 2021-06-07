@@ -66,7 +66,7 @@ tkey='[["where to translate", ["key in json file", param1, param2, paramN], spee
 speed in seconds: defines how many seconds translator will take to write translations word by word. If you don't like that effect just don't send speed paramter or send 0, this way, translations will appear right away.
 
 ```
-<div>
+
 <h1>Examples</h2>
     <h2> Translate element innerHtml: </h2>
     <h4> Example 1 </h4>
@@ -95,7 +95,6 @@ speed in seconds: defines how many seconds translator will take to write transla
     <h4> Results in: </h4>
     &lt;input id="description" type="text" tkey='[["value", "input_value"]]' value="Fill with value" /&gt;
     <br/>
-</div>
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

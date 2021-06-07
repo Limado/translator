@@ -63,6 +63,7 @@ tkey='[["where to translate", "key in json file", speed in seconds]]'
 
 tkey='[["where to translate", ["key in json file", param1, param2, paramN], speed in seconds]]'
 
+where to translate: indicates where your value will be written in the element (html/attribute/value)
 speed in seconds: defines how many seconds translator will take to write translations word by word. 
 If you don't like that effect just don't send speed paramter or send 0, this way, translations will appear right away.
 

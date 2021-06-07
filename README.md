@@ -1,5 +1,5 @@
 # translator
-A tiny library to make your own personalized client side translations.
+A tiny class to make your own personalized client side translations.
 # Translator
 
 Translator is tiny library to make your own personalized client side translations.

@@ -67,33 +67,33 @@ speed in seconds: defines how many seconds translator will take to write transla
 
 ```
 <div>
-    <h1>Examples</h2>
+<h1>Examples</h2>
     <h2> Translate element innerHtml: </h2>
     <h4> Example 1 </h4>
     &lt;label tkey='[["html", "welcome",1]]'&gt;&lt;/label&gt;
     <h4> Results in: </h4>
-    <label tkey='[["html", "welcome",1]]'>Welcome to my portfolio.</label>
+    &lt;label tkey='[["html", "welcome",1]]'&gt;Welcome to my portfolio.&lt;/label&gt;
     <h4> Example 2 </h4>
     &lt;label tkey='[["html", ["prize", 19,99], 2]'&gt;&lt;/label&gt;
     <h4> Results in: </h4>
-    <label tkey='[["html", ["prize", 19,99], 2]'>Get my services for only $19,99 per hour.</label>
+    &lt;label tkey='[["html", ["prize", 19,99], 2]'&gt;Get my services for only $19,99 per hour.&lt;/label&gt;
     <h4> Example 3 </h4>
     &lt;label tkey='[["html", ["product_prize", 4.99]'&gt;&lt;/label&gt;
     <h4> Results in: </h4>
-    <label tkey='[["html", ["product_prize", 4.99], 3]]'> Get Translator for only $4.99 just for this month.</label>
+    &lt;label tkey='[["html", ["product_prize", 4.99], 3]]'&gt; Get Translator for only $4.99 just for this month.&lt;/label&gt;
     <br/>
     <hr/>
     <h2> Translate element attribute: </h2>
     <h4> Example 4 </h4>
     &lt;label tkey='[["placeholder", "input_placeholder", 2]'&gt;&lt;/label&gt;
     <h4> Results in: </h4>
-    <input type="text" tkey='[["placeholder", "input_placeholder"]]' placeholder="Write something">
+    &lt;input type="text" tkey='[["placeholder", "input_placeholder"]]' placeholder="Write something"&lt;/&gt;
     <hr/>
     <h2> Translate element value </h2>
     <h4> Example 5 </h4>
     &lt;label tkey='[["value", "input_value", 2]'&gt;&lt;/label&gt;
     <h4> Results in: </h4>
-    <input id="description" type="text" tkey='[["value", "input_value"]]' value="Fill with value">
+    &lt;input id="description" type="text" tkey='[["value", "input_value"]]' value="Fill with value"&lt;/&gt;
     <br/>
 </div>
 

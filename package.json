@@ -1,0 +1,31 @@
+{
+  "name": "en-translator",
+  "version": "1.0.0",
+  "description": "A tiny class to make your own personalized client side translations.",
+  "main": "translator.module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Limado/translator.git"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
+  },
+  "keywords": [
+    "tranlator",
+    "translate",
+    "translations",
+    "traductor",
+    "traduccion",
+    "traducir",
+    "traducciones"
+  ],
+  "author": "Limado",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Limado/translator/issues"
+  },
+  "homepage": "https://github.com/Limado/translator#readme"
+}

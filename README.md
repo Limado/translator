@@ -10,9 +10,15 @@ You will have to write your key/value json files.
 
 # Installation
 
-No installation required just &lt;script src="{path_to}/translator.js"&gt;&lt;/script&gt;
+npm install en-translator
 
-We are working on ES6 Module version.
+or
+
+&lt;script src="{path_to}/translator.js"&gt;&lt;/script&gt;
+
+translator.js containns clasic javascript.
+
+translator.module.js contains javascript ES6 module.
 
 # Usage
 

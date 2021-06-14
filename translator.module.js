@@ -3,7 +3,7 @@
  * Version: 1.0.0
  */
 
-class Translator {
+export default class Translator {
   options = { user: "default", resources: "./", languaje: "ENG" };
 
   constructor(options = {}) {

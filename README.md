@@ -16,7 +16,7 @@ or
 
 &lt;script src="{path_to}/translator.js"&gt;&lt;/script&gt;
 
-translator.js containns clasic javascript.
+translator.js contains classic vanilla javascript.
 
 translator.module.js contains javascript ES6 module.
 

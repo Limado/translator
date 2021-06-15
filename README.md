@@ -25,16 +25,16 @@ translator.module.js contains javascript ES6 module.
 On page load:
 
 ```
-let $T = new Translator({ resources: "./assets/js/resources/" , languaje: "ENG" });
+let $T = new Translator({ resources: "./assets/js/resources/" , language: "ENG" });
 
-#resouces is the path to your languajes json file. 
-#languaje is resource file name
+#resouces is the path to your languages json file. 
+#language is resource file name
 ```
 
-When yo want to change your page languaje on the fly just call:
+When yo want to change your page language on the fly just call:
 
 ```
-$T.setLanguaje("SPA"); # SPA is the name of the resource json file.
+$T.setlanguage("SPA"); # SPA is the name of the resource json file.
 ```
 
 To translate a particular section of your page call `translateSection` function.

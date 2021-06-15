@@ -4,18 +4,18 @@
  */
 
 export default class Translator {
-  options = { user: "default", resources: "./", languaje: "ENG" };
+  options = { user: "default", resources: "./", language: "ENG" };
 
   constructor(options = {}) {
     this.options = Object.assign(this.options, options);
-    this.setLanguaje(this.options.languaje);
+    this.setlanguage(this.options.language);
   }
   /**
-   * Set de sessionStorage languaje and translate de page.
+   * Set de sessionStorage language and translate de page.
    * lang is then name of the json resource file.s
    * @param {*} lang
    */
-  setLanguaje = function (lang = null) {
+  setlanguage = function (lang = null) {
     if (lang != null)
       localStorage.setItem(this.options.user + "_t_language", lang);
 

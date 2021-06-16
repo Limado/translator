@@ -10,10 +10,6 @@ You will have to write your key/value json files.
 
 # Installation
 
-npm install en-translator
-
-or
-
 &lt;script src="{path_to}/translator.js"&gt;&lt;/script&gt;
 
 translator.js contains classic vanilla javascript.

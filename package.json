@@ -1,6 +1,6 @@
 {
   "name": "en-translator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny class to make your own personalized client side translations.",
   "main": "translator.module.js",
   "scripts": {

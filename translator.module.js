@@ -1,6 +1,6 @@
 /**
  * Dependency: Jquery
- * Version: 1.0.0
+ * Version: 1.0.1
  */
 
 export default class Translator {

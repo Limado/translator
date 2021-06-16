@@ -1,0 +1,15 @@
+{
+  "name": "en-translator-demo",
+  "version": "1.0.0",
+  "description": "My personal resume and portfolio",
+  "main": "index.html",
+  "scripts": {
+    "start": "node server/express.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emiliano Noli",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

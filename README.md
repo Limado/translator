@@ -12,7 +12,7 @@ You will have to write your key/value json files.
 
 &lt;script src="{path_to}/translator.js"&gt;&lt;/script&gt;
 
-translator.js contains classic vanilla javascript.
+translator.js contains a class javascript.
 
 translator.module.js contains javascript ES6 module.
 

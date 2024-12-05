@@ -21,7 +21,7 @@ translator.module.js contains javascript ES6 module.
 On page load:
 
 ```
-let $T = new Translator({ resources: "./assets/js/resources/" , language: "ENG" });
+const $T = new Translator({ resources: "./assets/js/resources/" , language: "ENG" });
 
 #resouces is the path to your languages json file. 
 #language is resource file name
@@ -102,6 +102,7 @@ If you don't like that effect just don't send speed paramter or send 0, this way
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
+
 
 ## License
 

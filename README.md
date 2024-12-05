@@ -1,4 +1,4 @@
-# Translator new branch
+# Translator
 
 Translator is tiny class to make your own personalized client side translations.
 

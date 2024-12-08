@@ -2,7 +2,7 @@
 
 Translator is tiny class to make your own personalized client side translations.
 
-It depends on JQuery library.
+It is written in Javascript and depends on JQuery library.
 
 You will have to write your key/value json files.
 
